@@ -15,8 +15,8 @@ node {
   }
   
   stage('deploy') {
-    def webAppResourceGroup = 'devopswebapp'
-    def webAppName = 'devopstestwebapp342'
+    def webAppResourceGroup = 'devopslinuxrg'
+    def webAppName = 'devopslinuxweb342'
     def acrName = 'acrtest342'
     def imageName = 'calculator'
     // generate version, it's important to remove the trailing new line in git describe output
